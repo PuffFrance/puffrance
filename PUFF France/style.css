@@ -1,0 +1,21 @@
+.navigation {
+    position: relative;
+    width: 400px;
+    height: 60px;
+    background: white;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.navigation ul {
+    width: 350px;
+    display: flex;
+}
+.navigation ul li {
+    list-style: none;
+    position: relative;
+    width: 70px;
+    height: 60px;
+    z-index: 2;
+}
